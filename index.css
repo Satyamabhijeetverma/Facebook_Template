@@ -1,0 +1,354 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+
+.wrapper {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.box {
+	height: 500px;
+	background-color: #e7e7e7;
+	border: 1px solid rgba(0,0,0,0.87)
+}
+/*header {
+  background-color: #4267b2;
+  height: 30px;
+}*/
+footer {
+background-color: rgba(0,0,0,0.87);
+  height: 30px;
+}
+#header {
+    background-color: #4267b2;
+    color: white;
+		height:35px;
+
+
+}
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+	//padding-left: 20px;
+}
+
+
+#menu,
+#sidebar {
+  height:600px;
+	background-color: #e9ebee;
+}
+#main
+{
+	height:1000px;
+	background-color: #e9ebee;
+}
+#header .navbar-brand {
+    color: white;
+}
+
+#header a {
+    color: white;
+}
+#header .dropdown a {
+    color: black;
+}
+#header ul .glyphicon {
+    font-size: 20px;
+}
+.pull-right {
+    float: right!important;
+}
+#bs-example-navbar-collapse-1 .glyphicon-search
+{
+	color:green;
+
+}
+body { padding-top: 70px; }
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+.myfooter{
+	background-color: white;
+}
+#main {
+	overflow: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+.nav-stacked .glyphicon{
+	margin-right:10px;
+}
+.badge-success
+{
+	color: #4267b2;
+	background-color: rgba(250,250,250,250.87);
+}
+.applogo{
+	width:30px;
+	height:28px;
+	margin-top: 13px;
+	margin-left:3px;
+	margin-right: -10px;
+}
+.navbar-nav{
+	margin-right:10px !important;
+}
+#footer .navbar-default
+{
+	height:8px
+}
+.nav .navbar-nav .navbar-right {
+	margin-right: 10px;
+}
+.comment {
+    margin: 0px;
+}
+#main .panel .panel-heading
+{
+	/*height:50px;*/
+}
+.list-group .list-group-item
+{
+	border-style:hidden;
+color: #4267b2;
+	background-color:#e7e7e7;
+}
+.list-group .list-group-item .list-group-item-text
+{
+	color: #4267a1;
+}
+.notify-badge
+{
+	background:red;
+	color:white;
+	position:absolute;
+	font-size:15px;
+	text-align:center;
+	border-radius:20px 20px 20px 20px;
+	padding:0px 1px 1px 1px;
+	top:0px;
+	right:0px;
+
+}
+.middle
+{
+	width:15px;
+	height:2000px;
+	border-left::1px solid black;
+	border-right:1px solid black;
+	margin:0 auto;
+	padding-right: 10px;
+}
+#searchbar{
+	width:300px;
+	height:28px;
+	margin-top:5px;
+}
+
+#search{
+	height:28px;
+	margin-top:5px;
+}
+#suggestpanel
+{
+	height:100px !important;
+}
+@media(max-width: 900px) {
+	[class*="col-"] {
+	    width:auto;
+	}
+	#header {
+	    background-color: #4267b2;
+	    color: white;
+			height:auto;
+			display:inline-block;
+}
+#srcbar
+{
+	width:50%;
+}
+
+#commentbox
+{
+	width:inherit;
+
+}
+@media screen and (max-width: 767px) {
+  #friendly-navbar {
+    background-color: #f5f5f5;
+    overflow: auto;
+    max-height: 450px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #search-box {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #top-menu>ul>li>a {
+    color: black;
+    font-weight: normal;
+    line-height: normal;
+  }
+
+  #top-menu li {
+    border-left: 0;
+  }
+
+  #top-menu .thumbnail {
+    float: right;
+  }
+
+  #top-menu .dropdown-menu {
+    padding: 0;
+  }
+
+  .badge.notification-count {
+    position: relative;
+    float: right;
+  }
+
+  .navbar-brand {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 30px;
+  }
+
+  .navbar-brand .logo {
+    height: auto;
+    width: auto;
+  }
+
+  .navbar-header .navbar-toggle {
+    margin-right: 30px;
+  }
+
+  .top-menu-label {
+    display: inline;
+  }
+
+  /* Making the footer disappear */
+  #footer, .nav.navbar-default.navbar-fixed-bottom {
+    display: none;
+  }
+
+  body {
+    padding-bottom: 8px;
+  }
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  #friendly-navbar {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  #top-menu {
+    float: right;
+    flex: 1;
+  }
+
+  #search-box {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #header {
+    max-height: 43px;
+    min-height: 43px;
+  }
+
+  #search-box, #top-menu>ul>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+  }
+
+  #header .container.container-fluid {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  #navbar-dropdown .dropdown-menu li a {
+    padding: 3px 20px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+  #search-box {
+    max-width: 200px;
+  }
+}
+
+.notification-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 11px;
+  background-color: red;
+  padding: 1px 6px;
+}
+
+.carousel {
+  margin-bottom: 10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 300px;
+}
+
+#suggested-pages-carousel > .carousel-inner > .item > img, #suggested-pages-carousel > .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 150px;
+}
+#search-box {
+	padding-top: 10px;
+  width: 500px;
+}
+
+#search-box .form-control, .btn.btn-default {
+	height: 26px;
+	padding: 3px 12px;
+}
+
+
+<div class="container" id="wrapper">
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-7"></div>
+    <div class="col-md-3"> </div>
+  </div>
+</div>
