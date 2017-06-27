@@ -343,6 +343,18 @@ color: #4267b2;
 	height: 26px;
 	padding: 3px 12px;
 }
+#top-menu>ul>li>a {
+  font-weight: bold;
+  line-height: 28px;
+}
+
+#top-menu .dropdown-menu {
+  font-size: 12px;
+}
+
+.top-menu-label {
+  display: none;
+}
 
 
 <div class="container" id="wrapper">
